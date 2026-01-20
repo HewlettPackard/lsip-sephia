@@ -1,6 +1,7 @@
 # SEPhIA: <1 laser/neuron Spiking Electro-Photonic Integrated Multi-Tiled Architecture for Scalable Optical Neuromorphic Computing
 
 This repository contains the code and trained models for the SEPhIA paper.
+The manuscript can currently be found in the form of a pre-prinx on arXiv:[2510.07427](https://arxiv.org/abs/2510.07427).
 
 ## Repository Structure
 
