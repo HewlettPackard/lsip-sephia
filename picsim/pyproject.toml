@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "picsim"
+version = "0.0.1"
+authors = [
+  {name="Matěj Hejda", email="matej.hejda@hpe.com" },
+  {name="Sébastien d'Herbais de Thun", email="sebastien.dherbais-de-thun@hpe.com" },
+]
+description = "Stripped version of the PIC simulator."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "torch>=1.10.0",
+    "torchvision>=0.11.0",
+    "multimethod>=1.9.0",
+    "matrepr>=0.1.0",
+    "scikit-learn>=1.0.0",
+    "scipy>=1.7.0",
+    "Pillow>=9.0.0",
+    "matplotlib>=3.5.0",
+    "PyYAML>=6.0",
+    "colorsys",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.hpe.com/labs/lsip-picsim"
+Issues = "https://github.hpe.com/labs/lsip-picsim/issues"
+
+[tool.hatch.build]
+# This line tells Hatchling to look for packages inside the given directory
+directory = "picsim" 

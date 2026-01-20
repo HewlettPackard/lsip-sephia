@@ -1,0 +1,16 @@
+specs:
+  pds_noise_thermal_enabled: True
+  pds_noise_shot_enabled: True
+  pds_responsivity: 0.5 
+  pds_R_load: 50 
+  pds_f_cut: 25e+8  
+  pds_T: 300  
+  pds_Idark: 1e-9
+  pds_clamp_output: True
+  pds_floor_cutoff: None  
+  
+  mrr_Q: 15000
+  mrr_ER_db: 20.0
+  mrr_IL_db: 0.0
+  mrr_coupling_factor: 0.85
+  mrr_reso_shift_range_pm: -350
